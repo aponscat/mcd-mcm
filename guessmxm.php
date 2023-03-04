@@ -25,7 +25,7 @@ if ($guessed_mcm==$good_mcm) {
     beep();
 }
 
-echo "$nen la teva puntuació final és: (".$points*50.")\n";
+echo "$nen la teva puntuació final és: (".($points*50).")\n";
 
 function beep() {
     echo "\x07";
